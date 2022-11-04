@@ -3,15 +3,11 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.checkoutProduct__title {
-	font-weight: 800;
-	font-size: 18px;
-}
 
 .checkoutProduct__image {
 	object-fit: contain;
-	width: 180%;
-	height: 180%;
+	width: 180px;
+	height: 180px;
 }
 
 .checkoutProduct__info {
@@ -20,6 +16,11 @@
 
 .checkoutProduct__rating {
 	display: flex;
+}
+
+.checkoutProduct__title {
+	font-weight: 800;
+	font-size: 17px;
 }
 
 .checkoutProduct__info > button {
